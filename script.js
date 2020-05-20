@@ -1,14 +1,14 @@
-const btn_calculate = document.querySelector('#btn_calculate');
-const height = document.querySelector('#height');
-const weight = document.querySelector('#weight');
-const bmi_result = document.querySelector('#bmi_result');
-const bmi_type = document.querySelector('#bmi_type');
-const btn_clear = document.querySelector('#btn_clear');
-const gender = document.querySelector('#gender');
-const age = document.querySelector('#age');
+var btn_calculate = document.getElementById('btn_calculate');
+var height = document.getElementById('height');
+var weight = document.getElementById('weight');
+var bmi_result = document.getElementById('bmi_result');
+var bmi_type = document.getElementById('bmi_type');
+var btn_clear = document.getElementById('btn_clear');
+var gender = document.getElementById('gender');
+var age = document.getElementById('age');
 
 
-btn_calculate.addEventListener('click', e => {
+btn_calculate.addEventListener('click', e => { // it's arrow funsction equal document.addEventListener('click', function(){})
   e.preventDefault();
   var h = height.value  / 100;
   var w = weight.value;
@@ -22,7 +22,7 @@ btn_calculate.addEventListener('click', e => {
   bmi_type.value = getResult(bmi);
 });
 
-btn_clear.addEventListener('click', e => {
+btn_clear.addEventListener('click', e => {   
   e.preventDefault();
 
   height.value = '';
@@ -33,7 +33,7 @@ btn_clear.addEventListener('click', e => {
   bmi_type.value = '';
 });
 
-const getResult = (bmi) => {
+var getResult = (bmi) => {
   if (bmi >= 30) {
     return 'Obesity';
   } else if (bmi >= 25 && bmi <= 29.9) {
