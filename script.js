@@ -8,7 +8,7 @@ var gender = document.getElementById('gender');
 var age = document.getElementById('age');
 
 
-btn_calculate.addEventListener('click', e => { // it's arrow funsction equal document.addEventListener('click', function(){})
+btn_calculate.addEventListener('click', function(e)  { // it's arrow funsction equal document.addEventListener('click', function(){}) //short for event
   e.preventDefault();
   var h = height.value  / 100;
   var w = weight.value;
