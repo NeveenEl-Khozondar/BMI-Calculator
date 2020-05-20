@@ -1,0 +1,154 @@
+body {
+  background-image: url(./img/bluedreambanner-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: black;
+ font-size: 40px;
+  margin-left: 50px;
+}
+
+
+
+#img {
+  opacity: 0.6;
+}
+
+p {
+  color: wheat;
+}
+
+#part1,
+#part2 {
+  color: white;
+  font-size: 30px;
+}
+
+#btn_calculate {
+  width: 20%;
+  height: 10%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(29, 14, 14);
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+#label1 {
+  margin-top: 100px;
+}
+
+#bmi_type {
+  margin-left: 15px;
+}
+
+#bmi_result,
+#bmi_type {
+  margin-top: 10px;
+ 
+ 
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 6px;
+}
+
+#result{
+    margin-left: 50px;
+}
+#type{
+    margin-left: 50px;
+}
+
+#gender,
+#age,
+#input3,
+#input4 {
+
+  margin-top: 10px;
+  width: 15%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  size: 100px;
+
+  font-weight: bold;
+  box-shadow: 20 20px 20px -20px #333;
+}
+
+#gender {
+  margin-left: 10px;
+}
+#age{
+    margin-left: 40px;
+}
+
+
+
+#label3 {
+  width: 10px;
+  margin-top: 1000px;
+  margin-left: 65px;
+}
+
+#labell {
+  margin-left: 175px;
+ 
+}
+
+#select1 {
+  width: 10%;
+  height: 30%;
+  margin-left: 235px;
+}
+
+#select2 {
+  margin-left: 410px;
+}
+
+hr {
+  border: none;
+  height: 200px;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #42403f;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  size: 25x;
+}
+
+#btn_clear {
+  width: 10%;
+  height: 10%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(29, 14, 14);
+  font-weight: bold;
+  color: white;
+}
+
+#height,
+#weight{
+  margin-top: 10px;
+  width: 15%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  size: 100px;
+
+  font-weight: bold;
+  box-shadow: 20 20px 20px -20px #333;
+
+}
+
+
