@@ -59,10 +59,10 @@ p {
   
 }
 
-#results{
+#results {
     margin-left: 50px;
 }
-#type{
+#type {
     margin-left: 50px;
 }
 
@@ -87,7 +87,7 @@ p {
   margin-left:33px;
   
 }
-#age{
+#age {
     margin-left: 28px;
     padding: 17px;
 }
@@ -142,7 +142,7 @@ hr {
 }
 
 #height,
-#weight{
+#weight {
   margin-top: 10px;
   width: 15%;
   padding: 15px 20px;
@@ -156,8 +156,63 @@ hr {
   box-shadow: 20 20px 20px -20px #333;
 
 }
-#tdgender{
+#tdgender {
     margin-left: 20px;
+}
+
+.div2{
+    background-color:white;
+}
+
+.div2{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+    font-size: 20px;
+}
+
+.div2 > div {
+    background-color: white;
+    box-shadow: 10px 10px 60px #555;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;  
+    width: 60%;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px 5%;
+    font-size: 20px;
+}
+.div2{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    font-size: 20px;
+}
+
+.div2 > div { 
+    background-color:white;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 600px;
+    min-height: 400px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px 5%;
+    font-size: 20px;
 }
 
 
